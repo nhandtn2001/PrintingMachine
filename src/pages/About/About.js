@@ -14,13 +14,12 @@ const About = () => {
       <div className="pb-10">
         <h1 className="max-w-[600px] text-base text-lightText mb-2">
           <span className="text-primeColor font-semibold text-lg">Orebi</span>{" "}
-          is one of the world's leading ecommerce brands and is internationally
-          recognized for celebrating the essence of classic Worldwide cool
-          looking style.
+          là một trong những thương hiệu thương mại điện tử hàng đầu thế giới và được quốc tế
+          được công nhận vì đã tôn vinh bản chất cổ điển trên toàn thế giới.
         </h1>
         <Link to="/shop">
           <button className="w-52 h-10 bg-primeColor text-white hover:bg-black duration-300">
-            Continue Shopping
+            Tiếp tục mua sắm
           </button>
         </Link>
       </div>

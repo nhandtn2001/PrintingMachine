@@ -152,27 +152,27 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: bannerImgOne,
-      text: "Enhance Your Printing Experience",
+      text: "Nâng cao trải nghiệm in ấn của bạn",
       Subtext:
-        "Explore our premium printers and consumables for exceptional results",
+        "Khám phá các máy in và vật tư tiêu hao cao cấp của chúng tôi để có kết quả vượt trội",
       buttonLink: "/offer",
-      buttonText: "Shop Now",
+      buttonText: "Mua ngay",
     },
     {
       imgSrc: bannerImgOne,
-      text: "Quality Printing Solutions",
+      text: "Giải pháp in ấn chất lượng",
       Subtext:
-        "Discover our wide range of printers and consumables designed for professional printing needs.",
+        "Khám phá nhiều loại máy in và vật tư tiêu hao được thiết kế cho nhu cầu in ấn chuyên nghiệp của chúng tôi.",
       buttonLink: "/shop",
-      buttonText: "About-us",
+      buttonText: "Về chúng tôi",
     },
     {
       imgSrc: bannerImgOne,
-      text: "Efficiency Redefined",
+      text: "Hiệu quả được xác định lại",
       Subtext:
-        "Maximize productivity with our advanced printers and high-quality consumables. ",
+        "Tối đa hóa năng suất với máy in tiên tiến và vật tư tiêu hao chất lượng cao của chúng tôi.",
       buttonLink: "/contact",
-      buttonText: "Contact-us",
+      buttonText: "Liên hệ",
     },
 
     // Add more slides as needed

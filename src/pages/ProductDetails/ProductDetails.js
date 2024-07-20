@@ -7,13 +7,13 @@ import { FaDownload } from "react-icons/fa";
 const tabs = [
   {
     id: "Fiche Technique",
-    label: "Fiche Technique",
+    label: "Bảng kỹ thuật",
   },
   {
     id: "Description",
-    label: "Description",
+    label: "Mô tả",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+      "Máy Photocopy kỹ thuật số, laser đen trắng",
   },
   {
     id: "Video",

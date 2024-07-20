@@ -28,16 +28,16 @@ const SignIn = () => {
     e.preventDefault();
 
     if (!email) {
-      setErrEmail("Enter your email");
+      setErrEmail("Nhập email");
     }
 
     if (!password) {
-      setErrPassword("Create a password");
+      setErrPassword("Tạo mật khẩu");
     }
     // ============== Getting the value ==============
     if (email && password) {
       setSuccessMsg(
-        `Hello dear, Thank you for your attempt. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
+        `Xin chào, cảm ơn bạn đã liên hệ. Chúng tôi đang xử lý để xác thực quyền truy cập của bạn. Cho đến lúc đó, hãy duy trì kết nối và hỗ trợ bổ sung sẽ được gửi cho bạn qua thư của bạn tại ${email}`
       );
       setEmail("");
       setPassword("");
@@ -52,9 +52,9 @@ const SignIn = () => {
           </Link>
           <div className="flex flex-col gap-1 -mt-1">
             <h1 className="font-titleFont text-xl font-medium">
-              Stay sign in for more
+              Duy trì đăng nhập để biết thêm
             </h1>
-            <p className="text-base">When you sign in, you are with us!</p>
+            <p className="text-base">Khi bạn đăng nhập, bạn đang ở bên chúng tôi!</p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
             <span className="text-green-500 mt-1">
@@ -62,11 +62,10 @@ const SignIn = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Get started fast with OREBI
+                Bắt đầu nhanh chóng với OREBI
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -75,11 +74,10 @@ const SignIn = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Access all OREBI services
+                Truy cập tất cả các dịch vụ OREBI
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -88,11 +86,10 @@ const SignIn = () => {
             </span>
             <p className="text-base text-gray-300">
               <span className="text-white font-semibold font-titleFont">
-                Trusted by online Shoppers
+                Tin tưởng bởi khách hàng
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+
             </p>
           </div>
           <div className="flex items-center justify-between mt-10">
@@ -102,13 +99,13 @@ const SignIn = () => {
               </p>
             </Link>
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
-              Terms
+              Chính sách
             </p>
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
-              Privacy
+              Riêng tư
             </p>
             <p className="text-sm font-titleFont font-semibold text-gray-300 hover:text-white cursor-pointer duration-300">
-              Security
+              Bảo mật
             </p>
           </div>
         </div>
@@ -124,7 +121,7 @@ const SignIn = () => {
                 className="w-full h-10 bg-primeColor text-gray-200 rounded-md text-base font-titleFont font-semibold 
             tracking-wide hover:bg-black hover:text-white duration-300"
               >
-                Sign Up
+                Đăng nhập
               </button>
             </Link>
           </div>
@@ -132,13 +129,13 @@ const SignIn = () => {
           <form className="w-full lgl:w-[450px] h-screen flex items-center justify-center">
             <div className="px-6 py-4 w-full h-[90%] flex flex-col justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-primeColor">
               <h1 className="font-titleFont underline underline-offset-4 decoration-[1px] font-semibold text-3xl mdl:text-4xl mb-4">
-                Sign in
+                Đăng nhập
               </h1>
               <div className="flex flex-col gap-3">
                 {/* Email */}
                 <div className="flex flex-col gap-.5">
                   <p className="font-titleFont text-base font-semibold text-gray-600">
-                    Work Email
+                    Email làm việc
                   </p>
                   <input
                     onChange={handleEmail}
@@ -158,7 +155,7 @@ const SignIn = () => {
                 {/* Password */}
                 <div className="flex flex-col gap-.5">
                   <p className="font-titleFont text-base font-semibold text-gray-600">
-                    Password
+                    Mật khẩu
                   </p>
                   <input
                     onChange={handlePassword}
@@ -179,13 +176,13 @@ const SignIn = () => {
                   onClick={handleSignUp}
                   className="bg-primeColor hover:bg-black text-gray-200 hover:text-white cursor-pointer w-full text-base font-medium h-10 rounded-md  duration-300"
                 >
-                  Sign In
+                  Đăng nhập
                 </button>
                 <p className="text-sm text-center font-titleFont font-medium">
-                  Don't have an Account?{" "}
+                  Chưa có tài khoản?{" "}
                   <Link to="/signup">
                     <span className="hover:text-blue-600 duration-300">
-                      Sign up
+                      Đăng ký
                     </span>
                   </Link>
                 </p>

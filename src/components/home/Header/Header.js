@@ -96,7 +96,7 @@ const Header = () => {
                         onClick={() => setCategory(!category)}
                         className="flex justify-between text-base cursor-pointer items-center font-titleFont mb-2"
                       >
-                        Shop by Category{" "}
+                        Cửa hàng theo thể loại{" "}
                         <span className="text-lg">{category ? "-" : "+"}</span>
                       </h1>
                       {category && (
@@ -106,11 +106,11 @@ const Header = () => {
                           transition={{ duration: 0.4 }}
                           className="text-sm flex flex-col gap-1"
                         >
-                          <li className="headerSedenavLi">New Arrivals</li>
-                          <li className="headerSedenavLi">Gudgets</li>
-                          <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
-                          <li className="headerSedenavLi">Others</li>
+                          <li className="headerSedenavLi">Điểm đến mới</li>
+                          <li className="headerSedenavLi">Dụng cụ</li>
+                          <li className="headerSedenavLi">phụ kiện</li>
+                          <li className="headerSedenavLi">Đồ điện tử</li>
+                          <li className="headerSedenavLi">Khác</li>
                         </motion.ul>
                       )}
                     </div>
@@ -129,11 +129,11 @@ const Header = () => {
                           transition={{ duration: 0.4 }}
                           className="text-sm flex flex-col gap-1"
                         >
-                          <li className="headerSedenavLi">New Arrivals</li>
-                          <li className="headerSedenavLi">Gudgets</li>
-                          <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
-                          <li className="headerSedenavLi">Others</li>
+                          <li className="headerSedenavLi">Điểm đến mới</li>
+                          <li className="headerSedenavLi">Dụng cụ</li>
+                          <li className="headerSedenavLi">Phụ kiện</li>
+                          <li className="headerSedenavLi">Đồ điện tử</li>
+                          <li className="headerSedenavLi">Khác</li>
                         </motion.ul>
                       )}
                     </div>
